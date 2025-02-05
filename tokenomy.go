@@ -85,6 +85,7 @@ const (
 	AssetNameTether          = "usdt"
 	AssetNameTezos           = "xtz"
 	AssetNameTokenomy        = "ten"
+	AssetNameTron            = "trx"
 	AssetNameUsdc            = "usdc"
 	AssetNameXanpool         = "xlp"
 	AssetNameAvalanche       = "avax"
