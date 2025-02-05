@@ -26,7 +26,7 @@ The private APIs can only be accessed by using token and secret keys (API
 credential).
 
 An API credential can be retrieved manually by logging in into your
-https://onchainfolio.campinvestment.com[Tokenomy Exchange account]
+https://onchainfolio.campinvestment.com[CAMP Investment account]
 and open the
 https://onchainfolio.campinvestment.com/trade_api["Trade API" menu section].
 Please keep these credentials safe and do not reveal it to any external party.

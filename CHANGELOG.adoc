@@ -3,13 +3,20 @@
 :sectanchors:
 :sectlinks:
 
-Changelogs for Go module for Tokenomy.com.
+Changelogs for Go module for campinvestment.com.
 
+
+[#v0_15_3]
+==  camp-go v0.15.3 (2025-02-05)
+
+Renaming the module as `camp-go`
+
+The following asset is added to platform: tron.
 
 [#v0_15_2]
-==  tokenomy-go v0.15.2 (2023-11-22)
+==  camp-go v0.15.2 (2023-11-22)
 
-The following asset has been removed from Tokenomy: vexanium and eos.
+The following asset has been removed from CAMP: vexanium and eos.
 
 [#v0_15_2__enhancements]
 === Enhancements
@@ -18,7 +25,7 @@ The following asset has been removed from Tokenomy: vexanium and eos.
 
 
 [#v0_15_1]
-==  tokenomy-go v0.15.1 (2023-03-03)
+==  camp-go v0.15.1 (2023-03-03)
 
 The following asset is added to platform: avax.
 
@@ -29,7 +36,7 @@ snx_idk, and trx_usdt.
 
 
 [#v0_15_0]
-==  tokenomy-go v0.15.0 (2022-11-18)
+==  camp-go v0.15.0 (2022-11-18)
 
 This release add the following asset:
 
@@ -79,7 +86,7 @@ BulkOrderItem in the same order as request.
 TKN-3112 asset: add field IsWithoutNetwork to Asset struct::
 
 
-==  tokenomy-go v0.14.0 (2022.01.10)
+==  camp-go v0.14.0 (2022.01.10)
 
 ===  New features
 
@@ -165,12 +172,12 @@ TKN-3112 asset: add field IsWithoutNetwork to Asset struct::
    pxg_idk, scc_idk, sushi_idk, swipe_idk.
 
 
-*  tokenomy-go: add usdc to list of known assets
+*  camp-go: add usdc to list of known assets
 *  user_notifications: add earn related product notification type
 *  all: add asset Polkadot (DOT) and pairs for dot_btc and dot_idk
 
 
-==  tokenomy-go v0.13.0 (2021.05.20)
+==  camp-go v0.13.0 (2021.05.20)
 
 This release set the minimum Go version in go.mod to 1.16.
 
@@ -191,7 +198,7 @@ This release set the minimum Go version in go.mod to 1.16.
   ErrTradeFillOrKill.
 
 
-==  tokenomy-go v0.12.0 (2021.04.06)
+==  camp-go v0.12.0 (2021.04.06)
 
 === New features
 
@@ -201,7 +208,7 @@ This release set the minimum Go version in go.mod to 1.16.
   For example, for withdrawing asset TEN the network value would be "erc20".
 
 
-==  tokenomy-go v0.11.1 (2021.01.17)
+==  camp-go v0.11.1 (2021.01.17)
 
 This release set the minimum Go version to 1.14.
 
@@ -216,7 +223,7 @@ This release set the minimum Go version to 1.14.
    the E's Code value.
 
 
-==  tokenomy-go v0.11.0 (2020.11.24)
+==  camp-go v0.11.0 (2020.11.24)
 
 ===  Breaking changes
 
@@ -232,7 +239,7 @@ This release set the minimum Go version to 1.14.
 *  websocket_public: add method to get market prices
 
 
-==  tokenomy-go v0.10.0 (2020.10.23)
+==  camp-go v0.10.0 (2020.10.23)
 
 This release remove deprecated API v1 package and focus only on API v2.
 The API v2 package has been moved to root directory to prevent conflict with
@@ -265,7 +272,7 @@ The API v2 package has been moved to root directory to prevent conflict with
 *  market_depths: change the slice of Depth to slice of pointer to Depth
 
 
-==  tokenomy-go v0.9.1 (2020.08.31)
+==  camp-go v0.9.1 (2020.08.31)
 
 ===  Enhancements
 
@@ -278,7 +285,7 @@ the asset Lyfe(erc20).
 * v2/client: check for error on doSecureRequest
 
 
-==  tokenomy-go v0.9.0 (2020.08.13)
+==  camp-go v0.9.0 (2020.08.13)
 
 ===  Breaking changes
 
@@ -291,7 +298,7 @@ the asset Lyfe(erc20).
 * v2: add method to cancel all open orders using REST and WebSocket
 
 
-==  tokenomy-go v0.8.0 (2020.07.14)
+==  camp-go v0.8.0 (2020.07.14)
 
 ===  Breaking changes
 
@@ -325,7 +332,7 @@ The field "trade" become "order" and the field "deals" become "trades".
 * trade: remove unused field Fee
 
 
-==  tokenomy-go v0.7.0 (2020.06.18)
+==  camp-go v0.7.0 (2020.06.18)
 
 This release add new asset name "lyfebep" and pairs "lyfebep_ikd", "idk_usdt".
 
@@ -345,7 +352,7 @@ This release add new asset name "lyfebep" and pairs "lyfebep_ikd", "idk_usdt".
 
 ===  New features
 
-*  v1: use the tokenomy.Sign function to generate signature
+*  v1: use the camp.Sign function to generate signature
 
 *  v2: add parameter "offset" and "limit" to MarketTrades on REST Client
 
@@ -375,7 +382,7 @@ This release add new asset name "lyfebep" and pairs "lyfebep_ikd", "idk_usdt".
 *  v2: check for nil on amount and price
 
 
-==  tokenomy-go v0.6.0 (2020.06.05)
+==  camp-go v0.6.0 (2020.06.05)
 
 ===  Breaking changes
 
@@ -386,7 +393,7 @@ While at it, add field Pair to trade prices so client can know the
 pair where trade belong to.
 
 
-==  tokenomy-go v0.5.0 (2020.06.05)
+==  camp-go v0.5.0 (2020.06.05)
 
 ===  Breaking changes
 
@@ -422,7 +429,7 @@ The new request using base64 would be like,
 If pair is empty it will return all open trades in all pairs.
 
 
-==  tokenomy-go v0.4.4 (2020.06.05)
+==  camp-go v0.4.4 (2020.06.05)
 
 ===  Bug fixes
 
@@ -434,7 +441,7 @@ name is base name.
 *  v2: set default trade method to "limit"
 
 
-==  tokenomy-go v0.4.3 (2020.05.20)
+==  camp-go v0.4.3 (2020.05.20)
 
 ===  Bug fixes
 
@@ -448,7 +455,7 @@ This changes fix this issue by initializing TLSConfig only if
 Environment.IsInsecure is set.
 
 
-==  tokenomy-go v0.4.2 (2020.05.18)
+==  camp-go v0.4.2 (2020.05.18)
 
 ===  Enhancements
 
@@ -458,7 +465,7 @@ The user notification preferences will be returned when calling
 "/v2/user/info".
 
 
-==  tokenomy-go v0.4.1 (2020.05.12)
+==  camp-go v0.4.1 (2020.05.12)
 
 ===  Enhancements
 
@@ -467,7 +474,7 @@ The user notification preferences will be returned when calling
 *  Add constants for list of valid trade's status
 
 
-==  tokenomy-go v0.4.0 (2020.05.05)
+==  camp-go v0.4.0 (2020.05.05)
 
 ===  Breaking changes
 
@@ -490,7 +497,7 @@ The user notification preferences will be returned when calling
 *  v2: fix wrong method on PrivateWebSocket cancel trade request
 
 
-==  tokenomy-go v0.3.0
+==  camp-go v0.3.0
 
 v2: implement private WebSocket client
 
@@ -498,7 +505,7 @@ The private WebSocket client can handle trade, trade cancellation,
 and listing open trades.
 
 
-==  tokenomy-go v0.2.1
+==  camp-go v0.2.1
 
 v2: remove pair checks, let the server do the check
 
@@ -510,7 +517,7 @@ To minimize this error, we remove the check on pairs and let the server
 do them.
 
 
-==  tokenomy-go v0.2.0
+==  camp-go v0.2.0
 
 This release refactoring the struct Order and Trade in v2 to make it
 consistent.
@@ -533,7 +540,7 @@ either open or closed.
    "/v2/user/trade"
 
 
-==  tokenomy-go v0.1.0
+==  camp-go v0.1.0
 
 List of features in this release,
 

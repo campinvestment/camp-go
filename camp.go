@@ -21,7 +21,7 @@ import (
 const DefaultAddress = "https://api.campinvestment.com"
 
 // Version the latest tagged version.
-const Version = `0.15.2`
+const Version = `0.15.3`
 
 // List of API endpoints.
 const (
