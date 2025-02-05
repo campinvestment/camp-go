@@ -1,8 +1,8 @@
-// Copyright 2020 Tokenomy Technologies Ltd. All rights reserved.
+// Copyright 2025 CAMP Investment Technologies Ltd. All rights reserved.
 // Use of this source code is governed by a MIT-style license that can be
 // found in the LICENSE file.
 
-package tokenomy
+package camp
 
 import (
 	"testing"

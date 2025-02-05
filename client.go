@@ -1,8 +1,8 @@
-// Copyright 2019 Tokenomy Technologies Ltd. All rights reserved.
+// Copyright 2025 CAMP Investment Technologies Ltd. All rights reserved.
 // Use of this source code is governed by a MIT-style license that can be
 // found in the LICENSE file.
 
-package tokenomy
+package camp
 
 import (
 	"encoding/json"
@@ -16,7 +16,7 @@ import (
 	"github.com/shuLhan/share/lib/math/big"
 )
 
-// Client for Tokenomy REST API v2.
+// Client for CAMP REST API v2.
 type Client struct {
 	*libhttp.Client
 
@@ -33,7 +33,7 @@ type Client struct {
 // client when accessing private API.
 //
 // By default, the Token and Secret is read from environment variables
-// "TOKENOMY_TOKEN" and "TOKENOMY_SECRET", the parameters will override the
+// "CAMP_TOKEN" and "CAMP_SECRET", the parameters will override the
 // default value, if its set.
 // If both environment variables and the parameters are empty, the client can
 // only access the public API.

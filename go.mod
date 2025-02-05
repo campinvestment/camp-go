@@ -1,4 +1,4 @@
-module github.com/tokenomy/tokenomy-go
+module github.com/campinvestment/camp-go
 
 go 1.19
 

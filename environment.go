@@ -1,8 +1,8 @@
-// Copyright 2019 Tokenomy Technologies Ltd. All rights reserved.
+// Copyright 2025 CAMP Investment Technologies Ltd. All rights reserved.
 // Use of this source code is governed by a MIT-style license that can be
 // found in the LICENSE file.
 
-package tokenomy
+package camp
 
 import (
 	"fmt"
@@ -25,9 +25,9 @@ type Environment struct {
 
 	//
 	// Debug define level of logging in our library.
-	// debug value is set from environment variable "TOKENOMY_DEBUG".
-	// TOKENOMY_DEBUG=1 is for logging in configuration.
-	// TOKENOMY_DEBUG=2 is for logging input and output.
+	// debug value is set from environment variable "CAMP_DEBUG".
+	// CAMP_DEBUG=1 is for logging in configuration.
+	// CAMP_DEBUG=2 is for logging input and output.
 	//
 	Debug int
 
@@ -39,7 +39,7 @@ type Environment struct {
 // NewEnvironment create and initialize environment.
 //
 // If token and/or secret is empty it will set from environment variables
-// TOKENOMY_TOKEN and TOKENOMY_SECRET.
+// CAMP_TOKEN and CAMP_SECRET.
 func NewEnvironment(token, secret string) (env *Environment) {
 	env = &Environment{
 		Address: os.Getenv(EnvNameAddress),

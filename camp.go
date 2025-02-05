@@ -1,8 +1,8 @@
-// Copyright 2019 Tokenomy Technologies Ltd. All rights reserved.
+// Copyright 2025 CAMP Investment Technologies Ltd. All rights reserved.
 // Use of this source code is governed by a MIT-style license that can be
 // found in the LICENSE file.
 
-package tokenomy
+package camp
 
 import (
 	"crypto/hmac"
@@ -18,7 +18,7 @@ import (
 )
 
 // DefaultAddress contains the official API domain.
-const DefaultAddress = "https://api.tokenomy.com"
+const DefaultAddress = "https://api.campinvestment.com"
 
 // Version the latest tagged version.
 const Version = `0.15.2`
@@ -61,7 +61,7 @@ const (
 
 // List of known asset names.
 // The list is updated rarely, it may contains asset that has been delisted
-// or did not contains new asset in the Tokenomy platform.
+// or did not contains new asset in the CAMP platform.
 const (
 	AssetNameAchain          = "achain"
 	AssetNameBalancer        = "bal"
@@ -93,7 +93,7 @@ const (
 
 // List of valid pairs.
 // The list is updated rarely, so it may contains pairs that has been delisted
-// or did not contains new pairs in the Tokenomy platform.
+// or did not contains new pairs in the CAMP platform.
 const (
 	PairBitcoinCashBitcoin = AssetNameBitcoinCash + `_` + AssetNameBitcoin // bch_btc
 	PairEthereumBitcoin    = AssetNameEthereum + `_` + AssetNameBitcoin    // eth_btc
@@ -151,11 +151,11 @@ const (
 
 // List of knowns environment variables.
 const (
-	EnvNameAddress = "TOKENOMY_ADDRESS"
-	EnvNameDebug   = "TOKENOMY_DEBUG"
-	EnvNameToken   = "TOKENOMY_TOKEN"
-	EnvNameSecret  = "TOKENOMY_SECRET"
-	EnvNameTestE2E = "TOKENOMY_TEST_E2E"
+	EnvNameAddress = "CAMP_ADDRESS"
+	EnvNameDebug   = "CAMP_DEBUG"
+	EnvNameToken   = "CAMP_TOKEN"
+	EnvNameSecret  = "CAMP_SECRET"
+	EnvNameTestE2E = "CAMP_TEST_E2E"
 )
 
 // List of knowns HTTP headers.

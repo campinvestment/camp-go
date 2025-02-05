@@ -1,41 +1,41 @@
-=  tokenomy-go
-:url-gocard: https://goreportcard.com/report/github.com/tokenomy/tokenomy-go
-:url-goref: https://pkg.go.dev/github.com/tokenomy/tokenomy-go
+=  camp-go
+:url-gocard: https://goreportcard.com/report/github.com/campinvestment/camp-go
+:url-goref: https://pkg.go.dev/github.com/campinvestment/camp-go
 
-image:https://pkg.go.dev/badge/github.com/tokenomy/tokenomy-go.svg[Go Reference, link={url-goref}]
-image:https://goreportcard.com/badge/github.com/tokenomy/tokenomy-go.svg[Go Report Card, link={url-gocard}]
+image:https://pkg.go.dev/badge/github.com/campinvestment/camp-go.svg[Go Reference, link={url-goref}]
+image:https://goreportcard.com/badge/github.com/campinvestment/camp-go.svg[Go Report Card, link={url-gocard}]
 
-This is the official Go module for client of Tokenomy API v1 and v2.
+This is the official Go module for client of CAMP Investment API v1 and v2.
 
 Documentation for API v1 is available at
-https://exchange.tokenomy.com/help/api[API v1 help page]
+https://spot.campinvestment.com/help/api/v1[API v1 help page]
 and the
-https://pkg.go.dev/github.com/tokenomy/tokenomy-go/v1?tab=doc[Go doc page].
+https://pkg.go.dev/github.com/campinvestment/camp-go/v1?tab=doc[Go doc page].
 
 Documentation for API v2 is available at
-https://exchange.tokenomy.com/help/api/v2[API v2 help page]
+https://spot.campinvestment.com/help/api/v2[API v2 help page]
 and the
-https://pkg.go.dev/github.com/tokenomy/tokenomy-go/v2?tab=doc[Go doc page].
+https://pkg.go.dev/github.com/campinvestment/camp-go/v2?tab=doc[Go doc page].
 
 Note that, this module is in development state, still in v0, and may
 subject to changes in the future release until v1 is reached.
 
-Tokenomy provide public and private APIs.
+CAMP Investment provides public and private APIs.
 The public APIs can be accessed directly, without any keys or credential.
 The private APIs can only be accessed by using token and secret keys (API
 credential).
 
 An API credential can be retrieved manually by logging in into your
-https://exchange.tokenomy.com[Tokenomy Exchange account]
+https://onchainfolio.campinvestment.com[Tokenomy Exchange account]
 and open the
-https://exchange.tokenomy.com/trade_api["Trade API" menu section].
+https://onchainfolio.campinvestment.com/trade_api["Trade API" menu section].
 Please keep these credentials safe and do not reveal it to any external party.
 
 
 ==  License
 
 ----
-Copyright (c) 2019 Tokenomy Technologies Ltd. All rights reserved.
+Copyright (c) 2025 CAMP Investment Technologies Ltd. All rights reserved.
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal

@@ -1,8 +1,8 @@
-// Copyright 2019 Tokenomy Technologies Ltd. All rights reserved.
+// Copyright 2025 CAMP Investment Technologies Ltd. All rights reserved.
 // Use of this source code is governed by a MIT-style license that can be
 // found in the LICENSE file.
 
-package tokenomy
+package camp
 
 // TradeResponse contains the recorded order information in the market and
 // part of full amount of order that have been completed (matched) as a list
